@@ -1,0 +1,1 @@
+Nuevo, Asignado, En progreso, Cerrado, Reabierto

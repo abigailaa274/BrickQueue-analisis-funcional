@@ -21,8 +21,8 @@ Este proyecto presenta el análisis funcional de un sistema de gestión de bugs 
 ## Actores: 
 - **Developer:**
     - **Como usuario solicitante:** crea tickets, asigna prioridad, redacta casos de prueba, hace seguimiento, responde consultas sobre el ticket, reabre tickets (cambia estado).
-    - **Como usuario resolutor:** toma tickets, se comunica con el usuario solicitante, resuelve tickets (cambia estado), cierra el ticket.
-    *Nota: las funciones de solicitante y resolutor corresponden a dos tareas que puede hacer un mismo usuario respecto a diferentes tickets, no a dos usuarios diferentes.*
+    - **Como usuario resolutor:** toma tickets, se comunica con el usuario solicitante, resuelve tickets (cambia estado).
+Nota: las funciones de solicitante y resolutor corresponden a dos tareas que puede hacer un mismo usuario respecto a diferentes tickets, no a dos usuarios diferentes.*
 - **Administrador/PM:** asigna y reasigna tickets, ve reportes y métricas.
 - **Sistema (actor no humano):** dispara notificaciones automáticas y alertas de vencimiento de tickets.
 
