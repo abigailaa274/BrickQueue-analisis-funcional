@@ -28,12 +28,13 @@
 | RF-04 | El sistema debe permitir al PM asignar un Developer (resolutor) a un ticket | PM | RN-02 |
 | RF-05 | El sistema debe permitir al PM cambiar la asignación de un ticket, de un Developer a otro, o dejar un ticket sin asignación | PM | RN-02 |
 | RF-06 | El sistema debe enviar notificaciones al Developer resolutor cuando se le asigne un nuevo ticket | Sistema, Developer como resolutor | RN-02, RN-03 |
-| RF-07 | El sistema debe permitir al Developer resolutor cambiar el estado de un ticket (Nuevo, Asignado, En progreso, Cerrado, Reabierto) | Developer como resolutor | RN-02, RN-03 |
+| RF-07 | El sistema debe permitir al Developer resolutor cambiar el estado de un ticket a lo largo de las ultimas etapas de su ciclo de vida normal (En progreso → Cerrado. Las anteriores, Nuevo y Asignado, corresponden a otras funciones) | Developer resolutor | RN-02, RN-03 |
 | RF-08 | El sistema debe permitir a cualquier miembro del equipo asignar fechas de vencimiento a los tickets | PM, Developer (como solicitante o como resolutor) | RN-02 |
 | RF-09 | El sistema debe permitir guardar mensajes/preguntas de los developers como solicitantes o como resolutores para el resto del equipo | Sistema, Developer (como solicitante o como resolutor) | RN-03, RN-04 |
 | RF-10 | El sistema debe enviar notificaciones al developer solicitante cuando un ticket creado por él pase a estado cerrado | Developer solicitante, Sistema | RN-01, RN-04 |
 | RF-11 | El sistema debe enviar notificación al PM y al developer resolutor asignado a un ticket cuando el ticket llegue a su fecha de vencimiento (solo si tiene fecha de vencimiento) | PM, Developer como resolutor, Sistema | RN-02 |
 | RF-12 | El sistema debe mostrar un panel de reportes con la cantidad de tickets por estado y por responsable (Developer resolutor) | PM | RN-02 |
+| RF-13 | El sistema debe permitir a cualquier miembro del equipo (Developer solicitante, Developer resolutor o PM) reabrir un ticket que se encuentre en estado "Cerrado" | Developer solicitante, Developer resolutor, PM | RN-01, RN-02, RN-03, RN-04 |
 
 ## Requerimientos no funcionales (RNF):
 
