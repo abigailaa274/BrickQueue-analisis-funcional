@@ -50,7 +50,7 @@
 ---
 
 ## HU-04 (RF-04)
-> **Como** PM, **quiero** asignar un Developer resolutor a un ticket, **para** definir quién es responsable de resolverlo.
+> **Como** PM, **quiero** asignar uno o más Developers resolutores a un ticket, **para** definir quién es responsable de resolverlo.
 
 **Escenario 1: Asignación exitosa**
 - **Given** que soy PM y existe un ticket sin resolutor asignado
@@ -60,7 +60,7 @@
 ---
 
 ## HU-05 (RF-05)
-> **Como** PM, **quiero** cambiar la asignación de un ticket a otro Developer o dejarlo sin asignar, **para** reorganizar la carga de trabajo del equipo.
+> **Como** PM, **quiero** cambiar la asignación de un ticket a otro u otros Developers o dejarlo sin asignar, **para** reorganizar la carga de trabajo del equipo.
 
 **Escenario 1: Reasignación**
 - **Given** que soy PM y un ticket ya tiene un Developer resolutor asignado
