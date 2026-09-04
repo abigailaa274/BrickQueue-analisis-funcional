@@ -35,6 +35,7 @@
 | RF-11 | El sistema debe enviar notificación al PM y al developer resolutor asignado a un ticket cuando el ticket llegue a su fecha de vencimiento (solo si tiene fecha de vencimiento) | PM, Developer como resolutor, Sistema | RN-02 |
 | RF-12 | El sistema debe mostrar un panel de reportes con la cantidad de tickets por estado y por responsable (Developer resolutor) | PM | RN-02 |
 | RF-13 | El sistema debe permitir a cualquier miembro del equipo (Developer solicitante, Developer resolutor o PM) reabrir un ticket que se encuentre en estado "Cerrado" | Developer solicitante, Developer resolutor, PM | RN-01, RN-02, RN-03, RN-04 |
+| RF-14 | El sistema debe permitir al PM y al Developer resolutor modificar la prioridad de un ticket, aunque no sean quienes lo crearon | PM, Developer resolutor | RN-02 |
 
 ## Requerimientos no funcionales (RNF):
 
