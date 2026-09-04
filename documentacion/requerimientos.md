@@ -22,8 +22,8 @@
 
 | Código | Descripción | Actor(es) | Requerimiento(s) de negocio relacionado(s) |
 |---|---|---|---|
-| RF-01 | El sistema debe permitir al developer solicitante crear tickets con título (obligatorio), descripción (optativo), tipo (bug/mejora obligatorio) y prioridad (optativo) | Developer solicitante | RN-01, RN-04 |
-| RF-02 | El sistema debe permitir al developer solicitante modificar los datos de los tickets que creó (título, descripción, tipo (bug/mejora) y prioridad) | Developer solicitante | RN-01, RN-04 |
+| RF-01 | El sistema debe permitir al developer solicitante crear tickets con título (obligatorio y único dentro del sistema), descripción (optativo), tipo (bug/mejora obligatorio) y prioridad (optativo) | Developer solicitante | RN-01, RN-04 |
+| RF-02 | El sistema debe permitir al developer solicitante modificar los datos de los tickets que creó (título, descripción, tipo (bug/mejora) y prioridad), validando que el nuevo título, si se modifica, no coincida con el de otro ticket existente | Developer solicitante | RN-01, RN-04 |
 | RF-03 | El sistema debe permitir a todos los usuarios ver los tickets ya existentes | Developer, PM | RN-01, RN-03, RN-04 |
 | RF-04 | El sistema debe permitir al PM asignar uno o más Developers (resolutores) a un ticket | PM | RN-02 |
 | RF-05 | El sistema debe permitir al PM cambiar la asignación de un ticket quitando o añadiendo Developers asignados, o dejar un ticket sin asignación | PM | RN-02 |

@@ -47,3 +47,5 @@
 **RPI (Requerimiento de Partes Interesadas):** necesidad general de un actor específico, más concreta que un RN pero sin bajar al detalle de una funcionalidad del sistema.
 
 **HU (Historia de Usuario):** descripción de una funcionalidad desde la perspectiva de un actor, en formato "Como... quiero... para...", con criterios de aceptación asociados.
+
+**Título (de un ticket):** nombre identificador de un ticket, obligatorio y único dentro del sistema. No puede haber dos tickets con el mismo título.

@@ -52,10 +52,15 @@
 ## HU-04 (RF-04)
 > **Como** PM, **quiero** asignar uno o más Developers resolutores a un ticket, **para** definir quién es responsable de resolverlo.
 
-**Escenario 1: Asignación exitosa**
+**Escenario 1: Asignación exitosa de un resolutor**
 - **Given** que soy PM y existe un ticket sin resolutor asignado
 - **When** selecciono un Developer resolutor para ese ticket
 - **Then** el ticket queda asignado a ese Developer y cambia su estado a "Asignado".
+
+**Escenario 2: Asignación exitosa de multiples resolutores**
+- **Given** que soy PM y existe un ticket sin resolutor asignado
+- **When** selecciono más de un Developer resolutor para ese ticket
+- **Then** el ticket queda asignado a todos los Developers selectos y cambia su estado a "Asignado".
 
 ---
 
@@ -71,6 +76,11 @@
 - **Given** que soy PM y un ticket tiene un resolutor asignado
 - **When** quito la asignación
 - **Then** el ticket queda sin resolutor, disponible para ser asignado nuevamente.
+
+**Escenario 3: Quitar asignación de un Developer cuando había más de uno**
+- **Given** que soy PM y un ticket tiene multiples resolutores asignados
+- **When** quito la asignación de uno de los resolutores
+- **Then** el ticket conserva los demas resolutores previamente asignados.
 
 ---
 

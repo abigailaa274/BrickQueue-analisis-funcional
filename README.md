@@ -21,20 +21,33 @@ Este proyecto presenta el análisis funcional de un sistema de gestión de bugs 
 ## Actores: 
 - **Developer:**
     - **Como usuario solicitante:** crea tickets, asigna prioridad, redacta casos de prueba, hace seguimiento, responde consultas sobre el ticket, reabre tickets (cambia estado).
-    - **Como usuario resolutor:** toma tickets, se comunica con el usuario solicitante, resuelve y/o reabre tickets (cambia estado).
-*Nota: las funciones de solicitante y resolutor corresponden a dos tareas que puede hacer un mismo usuario respecto a diferentes tickets, no a dos usuarios diferentes. Ademas un mismo Developer puede crear un ticket y despues ser asignado para resolverlo, es decir, ser solicitante y resolutor del mismo ticket*
-- **Administrador/PM:** asigna y reasigna tickets, ve reportes y métricas, reabre tickets (cambia estado).
+    - **Como usuario resolutor:** toma tickets, se comunica con el usuario solicitante, resuelve tickets (cambia estado), cierra el ticket.
+    *Nota: las funciones de solicitante y resolutor corresponden a dos tareas que puede hacer un mismo usuario respecto a diferentes tickets, no a dos usuarios diferentes.*
+- **Administrador/PM:** asigna y reasigna tickets, ve reportes y métricas.
 - **Sistema (actor no humano):** dispara notificaciones automáticas y alertas de vencimiento de tickets.
 
-## Estructura del repositorio: 
-ver después.
+## Estructura del repositorio:
+- `/documentacion`
+  - `requerimientos.md` — Requerimientos funcionales, no funcionales, de performance e infraestructura
+  - `historias-de-usuario.md` — Historias de usuario con criterios de aceptación (Given/When/Then)
+  - `reglas-de-negocio.md` — Reglas de negocio del sistema
+  - `glosario-de-terminos.md` — Glosario de términos técnicos y del dominio
+  - `listado-de-estados-ticket.md` — Estados y transiciones del ciclo de vida del ticket
+- `/diagramas` — Diagramas UML y BPMN (en desarrollo)
+- `/casos-de-prueba` — Casos de prueba (en desarrollo)
 
 ## Tecnologías/metodología usada:
-queda para después
+- Documentación en Markdown
+- Historias de usuario con criterios de aceptación en formato Given/When/Then (estilo BDD)
+- Diagramas UML (casos de uso, estados) y BPMN
+- Trazabilidad entre requerimientos de negocio, partes interesadas, funcionales e historias de usuario
 
-## Índice o links a cada documento 
-queda para después.
-
+## Índice
+- [Requerimientos](./documentacion/requerimientos.md)
+- [Historias de Usuario](./documentacion/historias-de-usuario.md)
+- [Reglas de Negocio](./documentacion/reglas-de-negocio.md)
+- [Glosario de Términos](./documentacion/glosario-de-terminos.md)
+- [Estados y Transiciones del Ticket](./documentacion/listado-de-estados-ticket.md)
 
 **Autora: Abigail Arias — Analista de sistemas. LinkedIn: www.linkedin.com/in/arias-abigail-aylen**
 
