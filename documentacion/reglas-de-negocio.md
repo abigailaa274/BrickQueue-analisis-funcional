@@ -14,3 +14,4 @@
 | RG-10 | Todo ticket se crea automáticamente en estado "Nuevo", sin posibilidad de que el solicitante elija otro estado inicial. |
 | RG-11 | Las notificaciones automáticas del sistema deben enviarse dentro de un plazo máximo de 1 minuto desde el evento que las origina. |
 | RG-12 | El título de un ticket debe ser único dentro del sistema; no puede haber dos tickets con el mismo título. |
+| RG-13 | Un ticket en estado "Reabierto" pasa a estado "Asignado" cuando el PM le asigna (o reasigna) un Developer resolutor. |
