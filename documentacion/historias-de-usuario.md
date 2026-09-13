@@ -165,3 +165,18 @@
 - **Given** que un ticket está en estado "Cerrado" y soy Developer solicitante, Developer resolutor o PM
 - **When** cambio su estado a "Reabierto"
 - **Then** el ticket vuelve a estar activo y visible para su seguimiento.
+
+---
+
+## HU-14 (RF-14)
+> **Como** PM o Developer resolutor, **quiero** modificar la prioridad de un ticket aunque no sea yo quien lo creó, **para** ajustar la urgencia de resolución según la carga y el criterio del equipo.
+
+**Escenario 1: Modificación exitosa de prioridad**
+- **Given** que soy PM o Developer resolutor con acceso a un ticket que no creé
+- **When** modifico su prioridad y confirmo el cambio
+- **Then** el sistema guarda la nueva prioridad y la refleja en la información del ticket.
+
+**Escenario 2: Intento de modificación por un actor sin permiso**
+- **Given** que soy Developer solicitante y existe un ticket creado por otro Developer solicitante
+- **When** intento modificar su prioridad
+- **Then** el sistema no permite la acción.

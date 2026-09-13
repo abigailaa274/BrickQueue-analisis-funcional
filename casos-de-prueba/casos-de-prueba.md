@@ -215,7 +215,7 @@
 1. Intento cambiar su estado a "Reabierto".
 **Resultado esperado:** El sistema no permite la acción, ya que solo los tickets "Cerrados" pueden reabrirse.
 
-## CP-32 (RF-14 / RG-08) — Modificar prioridad de un ticket ajeno (PM o resolutor)
+## CP-32 (HU-14 / RF-14 / RG-08) — Modificar prioridad de un ticket ajeno (PM o resolutor)
 **Precondición:** Soy PM o Developer resolutor. Existe un ticket que no creé.
 **Pasos:**
 1. Accedo al ticket.
@@ -223,7 +223,7 @@
 3. Confirmo.
 **Resultado esperado:** El sistema guarda el cambio de prioridad.
 
-## CP-33 (RG-08) — Intentar que un Developer solicitante ajeno modifique la prioridad
+## CP-33 (HU-14 / RF-14 / RG-08) — Intentar que un Developer solicitante ajeno modifique la prioridad
 **Precondición:** Existe un ticket creado por otro Developer solicitante.
 **Pasos:**
 1. Intento modificar la prioridad de ese ticket.
